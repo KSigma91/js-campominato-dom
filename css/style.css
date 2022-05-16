@@ -1,0 +1,40 @@
+#grid { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-basis: calc(100% / 8);
+    border: 1px solid #a7a7a7;
+    height: calc(100% / 8);
+}
+
+.square_facile {
+    flex-basis: calc(100% / 10);
+    border: 1px solid #a7a7a7;
+    height: calc(100% / 10);
+}
+
+.square_medio {
+    flex-basis: calc(100% / 9);
+    border: 1px solid #a7a7a7;
+    height: calc(100% / 9);
+}
+
+.square_difficile {
+    flex-basis: calc(100% / 7);
+    border: 1px solid #a7a7a7;
+    height: calc(100% / 7);
+}
+
+.clicked {
+    background: orange;
+}
+
+#num_pari {
+    background: lime;
+}
+
+#num_dispari {
+    background: red;
+}
